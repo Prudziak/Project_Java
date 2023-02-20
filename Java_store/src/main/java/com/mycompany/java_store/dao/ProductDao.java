@@ -2,6 +2,7 @@ package com.mycompany.java_store.dao;
 
 import com.mycompany.java_store.entities.Product;
 import java.util.List;
+import javax.transaction.Transactional;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

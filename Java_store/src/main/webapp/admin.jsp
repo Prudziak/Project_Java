@@ -68,7 +68,7 @@
                 </div>
                 
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card" data-toggle="modal" data-target="#delete">
                         <div class="card-body text-center">
                             <div class="container">
                                 <img style="max-width:110px;" class="img-fluid" src="images/box.png" alt="product_icon"/>
@@ -196,5 +196,6 @@
             </div>
         </div>
         <%@include file="components/modal.jsp" %>
+        <%@include file="components/removeModal.jsp" %>
     </body>
 </html>
